@@ -19,7 +19,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          projectBaseDir: my-custom-directory
           args: >
            -Dsonar.organization=ethelaw
            -Dsonar.projectKey=EthelAw_HTML
